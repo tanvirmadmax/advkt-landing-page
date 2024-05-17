@@ -1,0 +1,76 @@
+@media (min-width: 1500px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .hero-content h1 {
+        font-size: 55px;
+    }
+    
+}
+
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .hero-content h1 {
+        font-size: 50px;
+    }
+    .section-title h2 {
+        font-size: 40px;
+    }
+
+}
+
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .hero-content h1 {
+        font-size: 45px;
+    }
+    .section-title h2 {
+        font-size: 35px;
+    }
+    
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .hero-content h1 {
+        font-size: 35px;
+        line-height: 1.3;
+    }
+    .hero-images {
+        margin-top: 50px;
+    }
+    .footer-top h3,
+    .section-title h2,
+    .coming-soon-text {
+        font-size: 30px;
+    }
+    .footer-top {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .hero-content h1 {
+        font-size: 30px;
+    }
+    .footer-top h3,
+    .coming-soon-text,
+    .section-title h2 {
+        font-size: 25px;
+    }
+    .single-hp-item h4 {
+        margin-top: -10px;
+        font-size: 20px;
+    }
+    
+}
+
